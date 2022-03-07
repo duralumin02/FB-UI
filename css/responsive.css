@@ -1,0 +1,32 @@
+@media screen and (max-width: 768px) {
+  .center {
+    display: none;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .left {
+    width: 40%;
+  }
+
+  .right {
+    width: 45%;
+  }
+  .left-aside,
+  .right-aside {
+    display: none;
+  }
+  .news-feed {
+    width: 100%;
+  }
+
+  .myDay-firstItem,
+  .myDay-item {
+    margin: 6px;
+    width: 120px;
+  }
+  .scroll-myDay {
+    right: 30px;
+  }
+}
