@@ -1,6 +1,12 @@
 @media screen and (max-width: 768px) {
-  .center {
+  .right .rightBox {
     display: none;
+  }
+  .left .searchBox {
+    display: none;
+  }
+  .center {
+    width: 30%;
   }
   nav {
     display: flex;
@@ -13,6 +19,10 @@
   .right {
     width: 45%;
   }
+  .right .rightBox {
+    display: none;
+  }
+
   .left-aside,
   .right-aside {
     display: none;
@@ -24,9 +34,55 @@
   .myDay-firstItem,
   .myDay-item {
     margin: 6px;
-    width: 120px;
+    width: 130px;
+  }
+
+  .uploadAndRoom .upload-Container,
+  .uploadAndRoom .room-container,
+  .new-feedPost-container {
+    width: 90%;
   }
   .scroll-myDay {
     right: 30px;
+  }
+  .message-icon {
+    display: none;
+  }
+  @media screen and (max-width: 540px) {
+    .left {
+      display: none;
+    }
+    .center {
+      margin: 0 auto;
+      width: 100%;
+    }
+    .center .centerBox .center-item {
+      width: 100px;
+    }
+    .uploadAndRoom .upload-Container,
+    .uploadAndRoom .room-container,
+    .new-feedPost-container {
+      width: 95%;
+    }
+    @media screen and (max-width: 375px) {
+      .center .centerBox .center-item {
+        width: 75px;
+        margin: 0;
+      }
+      .myDay-list {
+        width: 150%;
+        overflow-x: scroll;
+      }
+      .news-feed .myDay-list .myDay-firstItem,
+      .news-feed .myDay-list .myDay-item {
+        width: 100px;
+      }
+      .upload-file .upload-file-attach span {
+        display: none;
+      }
+      .uploadAndRoom .room-container {
+        display: none;
+      }
+    }
   }
 }
