@@ -64,9 +64,9 @@
     .new-feedPost-container {
       width: 95%;
     }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 414px) {
       .center .centerBox .center-item {
-        width: 75px;
+        width: 82px;
         margin: 0;
       }
       .myDay-list {
@@ -75,7 +75,7 @@
       }
       .news-feed .myDay-list .myDay-firstItem,
       .news-feed .myDay-list .myDay-item {
-        width: 100px;
+        width: 111px;
       }
       .upload-file .upload-file-attach span {
         display: none;
